@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "pe-7s-smile",
+    "txt": "Hours",
+    "value": "13"
+  },
+  {
+    "id": 2,
+    "icon": "pe-7s-portfolio",
+    "txt": "Visitors",
+    "value": "800"
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-cloud-download",
+    "txt": "Companies",
+    "value": "53"
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-medal",
+    "txt": "Speakers",
+    "value": "13"
+  }
+]
