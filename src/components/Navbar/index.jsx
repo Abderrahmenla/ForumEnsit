@@ -7,6 +7,7 @@ import {
   handleMobileDropdown,
 } from "../../common/navbar";
 
+
 const Navbar = ({ lr, nr, theme }) => {
   return (
     <nav
