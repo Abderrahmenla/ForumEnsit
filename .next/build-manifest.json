@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/showcase/showcase-dark": [
+    "/blog-details/blog-details-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/showcase/showcase-dark.js"
+      "static/chunks/pages/blog-details/blog-details-dark.js"
+    ],
+    "/contact/contact-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact/contact-dark.js"
     ]
   },
   "ampFirstPages": []
