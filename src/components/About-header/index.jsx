@@ -11,7 +11,7 @@ const AboutHeader = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="cont text-center">
-              <h1>About Us</h1>
+              <h1>Qui sommes-nous ?</h1>
               <div className="path">
                 <a href="#0">Home</a>
                 <span>/</span>
