@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import addParlx from "../../common/addParlx";
 
@@ -17,16 +18,15 @@ const ContactHeader = ({ sliderRef }) => {
             <div className="capt mt-50">
               <div className="parlx">
                 <h2 className="custom-font">
-                  <span>Let&apos;s</span>Talk About Your project.
+                  <span>Connected world</span>n'hésitez pas à nous rejoindre.
                 </h2>
                 <p>
-                  Feel free to ask me any question or let&apos;s do to talk
-                  about our future collaboration.
+                Le 23 Novembre 2022 à la cité de culture
                 </p>
               </div>
 
               <div className="bactxt custom-font valign">
-                <span className="full-width">Contact</span>
+                <span className="full-width">Inscrire</span>
               </div>
             </div>
           </div>

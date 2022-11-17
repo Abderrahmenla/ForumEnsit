@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Split from "../Split";
@@ -53,14 +54,14 @@ class Testimonials1 extends React.Component {
         <div className="container position-re">
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
-              What Peapole Says?
+              Découvrez Nos
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-                Testimonials.
+              Conférenciers.
               </h3>
             </Split>
-            <span className="tbg">Testimonials</span>
+            <span className="tbg">Conférenciers</span>
           </div>
           <div
             className="row justify-content-center wow fadeInUp"
@@ -82,10 +83,7 @@ class Testimonials1 extends React.Component {
               >
                 <div className="item">
                   <p>
-                    Cooperating with ENSIT digital agency to support our organic and
-                     social media activity has extended the marketing
-                    activities we are able to achieve platform has made
-                    collaboration easy.
+                  responsable des projets de recherche et de développement chez MaibornWolff
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -99,10 +97,10 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                              Alexander Hofmann 
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                              CTO at MaibornWolff and Holger Wolff
                               </span>
                             </div>
                           </>
@@ -112,10 +110,10 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                            Alexander Hofmann 
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                            CTO at MaibornWolff and Holger Wolff
                             </span>
                           </>
                         )}
@@ -125,10 +123,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    ENSIT started out managing our SEO efforts, but their
-                    scientific approach to digital marketing and the results
-                    they have achieved made it an easy decision for us to
-                    handover the management.
+                  Vaste expérience dans le secteur automobile, dans les aspects commerciaux et techniques, avec une solide formation en génie mécanique.
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -142,10 +137,10 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                THORSTEN KÖRNER
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                Responsable des ventes Bosch Rexroth AG
                               </span>
                             </div>
                           </>
@@ -155,10 +150,10 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              THORSTEN KÖRNER
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                              Responsable des ventes Bosch Rexroth AG
                             </span>
                           </>
                         )}
@@ -168,10 +163,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                    I would highly recommend ENSIT. I worked with the team
-                    on an animation for our U+2018 Click &amp; Collect U+2019
-                    service. This team is different from any other agency I have
-                    worked with in the past.
+                  un expert international en éducation, e-gouvernance et innovation numérique. Il est membre de plusieurs associations et notamment du Groupe iMFV travaillant sur le développement de la Vision Future de la Mobilité Intelligente
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -185,10 +177,10 @@ class Testimonials1 extends React.Component {
                             </div>
                             <div className="fxright">
                               <h6 className="author-name custom-font">
-                                Alex Regelman
+                                Farouk Kamoun
                               </h6>
                               <span className="author-details">
-                                Co-founder, Colabrio
+                                animateur a mosaique fm
                               </span>
                             </div>
                           </>
@@ -198,10 +190,90 @@ class Testimonials1 extends React.Component {
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
-                              Alex Regelman
+                              Farouk Kamoun
                             </h6>
                             <span className="author-details">
-                              Co-founder, Colabrio
+                              Professeur et expert international en politique stratégies
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <p>
+                  Ingénieur en électronique et télécommunications intéressé par tout ce qui concerne l'Internet des objets, l'intelligence artificielle et le développement informatique
+                  </p>
+                  <div className="info">
+                    <div className="cont">
+                      <div className="author">
+                        {this.props.subBGLftstlParallaxie ? (
+                          <>
+                            <div className="lxleft">
+                              <div className="img">
+                                <img src="/img/clients/1.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div className="fxright">
+                              <h6 className="author-name custom-font">
+                                Fatma Gargouri
+                              </h6>
+                              <span className="author-details">
+                                CTO chez Smart Ways Innovation
+                              </span>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="img">
+                              <img src="/img/clients/1.jpg" alt="" />
+                            </div>
+                            <h6 className="author-name custom-font">
+                              Fatma Gargouri
+                            </h6>
+                            <span className="author-details">
+                              CTO chez Smart Ways Innovation
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="item">
+                  <p>
+                  Présentateur TV, Radio, Modérateur, Producteur et Voix Officielle
+                  </p>
+                  <div className="info">
+                    <div className="cont">
+                      <div className="author">
+                        {this.props.subBGLftstlParallaxie ? (
+                          <>
+                            <div className="lxleft">
+                              <div className="img">
+                                <img src="/img/clients/1.jpg" alt="" />
+                              </div>
+                            </div>
+                            <div className="fxright">
+                              <h6 className="author-name custom-font">
+                                Malek Ouni
+                              </h6>
+                              <span className="author-details">
+                                Animateur à mosaique fm
+                              </span>
+                            </div>
+                          </>
+                        ) : (
+                          <>
+                            <div className="img">
+                              <img src="/img/clients/1.jpg" alt="" />
+                            </div>
+                            <h6 className="author-name custom-font">
+                              Malek Ouni
+                            </h6>
+                            <span className="author-details">
+                              Animateur à mosaique fm
                             </span>
                           </>
                         )}

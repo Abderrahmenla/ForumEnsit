@@ -44,7 +44,7 @@ const BlogStanderd = () => {
                         these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
-                        <a className="simple-btn mt-30">Read More</a>
+                        <a className="simple-btn mt-30">Lire la suite</a>
                       </Link>
                     </div>
                   </div>
@@ -85,7 +85,7 @@ const BlogStanderd = () => {
                         these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
-                        <a className="simple-btn mt-30">Read More</a>
+                        <a className="simple-btn mt-30">Lire la suite</a>
                       </Link>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ const BlogStanderd = () => {
                         these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
-                        <a className="simple-btn mt-30">Read More</a>
+                        <a className="simple-btn mt-30">Lire la suite</a>
                       </Link>
                     </div>
                   </div>
@@ -167,7 +167,7 @@ const BlogStanderd = () => {
                         these properties are connected.
                       </p>
                       <Link href="/blog-details/blog-details-dark">
-                        <a className="simple-btn mt-30">Read More</a>
+                        <a className="simple-btn mt-30">Lire la suite</a>
                       </Link>
                     </div>
                   </div>

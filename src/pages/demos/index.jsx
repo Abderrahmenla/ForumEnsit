@@ -9,6 +9,7 @@ import Services3 from "../../components/Services3";
 import Testimonials1 from "../../components/Testimonials1";
 import Works2Slider from "../../components/Works2-slider";
 import DarkTheme from "../../layouts/Dark";
+import Clients1 from "../../components/Clients1";
 
 const Homepage3 = () => {
   const navbarRef = React.useRef(null);
@@ -39,6 +40,7 @@ const Homepage3 = () => {
       <NumbersWithVideo />
       <Works2Slider subBG />
       <Testimonials1 />
+      <Clients1 theme="dark" />
       <BlogsThreeColumn1 subBG />
       <Footer />
     </DarkTheme>

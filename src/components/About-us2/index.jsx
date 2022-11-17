@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
@@ -29,7 +30,7 @@ const AboutUs2 = ({ skillsTheme }) => {
           <div className="col-lg-6 valign">
             <div className="content">
               <div className="sub-title">
-                <h6>About Us</h6>
+                <h6>À propos</h6>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -39,19 +40,15 @@ const AboutUs2 = ({ skillsTheme }) => {
                   className="co-tit custom-font wow words chars splitting"
                   data-splitting
                 >
-                  Our 20 years working experience make a different business
-                  agency services.
+                  8éme èditions de Insight Of ENSIT: Connected World
                 </h3>
               </Split>
               <p className="wow fadeInUp" data-wow-delay=".4s">
-                We are ENSIT. We create award-winning websites, remarkable brands
-                and cutting-edge apps.Nullam imperdiet, sem at fringilla
-                lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet
-                erat. Ut dictum nisi masvitp.
+              Nous vivons dans un monde de plus en plus connecté. Les gens sont constamment connectés à Internet et les uns aux autres via les smartphones et autres appareils. Un coup d'œil à la smartwatch révèle le nombre de pas que l'on fait ou la quantité d'électricité produite par les cellules solaires du toit. Il suffit d'un clic pour lancer la Machine à laver à la maison lorsque vous n'êtes pas chez vous.
+Ce ne sont que trois exemples parmi tant d'autres qui sont déjà une réalité aujourd'hui.
               </p>
               <p className="mt-10 wow fadeInUp" data-wow-delay=".4s">
-                Nulla metus metus ullamcorper vel tincidunt sed euismod nibh
-                volutpat velit class aptent taciti sociosqu ad litora.
+              Dans un ménage moyen, 50 appareils sont déjà connectés à l'internet, et la tendance est à la hausse. Le monde connecté prend des formes de plus en plus concrètes dans les foyers privés ainsi que dans l'industrie, le commerce et la science.
               </p>
               <Split>
                 <Link href="/about/about-dark">
@@ -59,7 +56,7 @@ const AboutUs2 = ({ skillsTheme }) => {
                     className="words chars splitting simple-btn custom-font mt-30 wow"
                     data-splitting
                   >
-                    <span>Know More</span>
+                    <span>Savoir plus</span>
                   </a>
                 </Link>
               </Split>

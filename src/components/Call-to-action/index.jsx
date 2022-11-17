@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Split from "../Split";
 import Link from "next/link";
@@ -14,13 +15,13 @@ const CallToAction = ({ img, theme, subBG }) => {
             <div className="content sm-mb30">
               <Split>
                 <h6 className="wow words chars splitting" data-splitting>
-                  Let&apos;s Talk
+                  23 Novembre
                 </h6>
                 <h2
                   className="wow words custom-font chars splitting"
                   data-splitting
                 >
-                  about your <b>next project</b>.
+                  rejoignez notre <b>forum</b>.
                 </h2>
               </Split>
             </div>
@@ -34,8 +35,8 @@ const CallToAction = ({ img, theme, subBG }) => {
                 } wow fadeInUp`}
                 data-wow-delay=".5s"
               >
-                <span>Get In Touch</span>
-              </a>
+                <span>S'inscrire</span>
+              </a> 
             </Link>
           </div>
         </div>

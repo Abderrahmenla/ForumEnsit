@@ -22,11 +22,11 @@ const NumbersWithVideo = () => {
                 <div className="item no-bord">
                   <span className="icon pe-7s-smile"></span>
                   <h3 className="custom-font">
-                    <span className="count">2400</span>
+                    <span className="count">13</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
-                      Happy Clients
+                      Heures
                     </p>
                   </Split>
                 </div>
@@ -35,11 +35,11 @@ const NumbersWithVideo = () => {
                 <div className="item">
                   <span className="icon pe-7s-portfolio"></span>
                   <h3 className="custom-font">
-                    <span className="count">133</span>
+                    <span className="count">750</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
-                      Compleate Projects
+                      Visiteurs
                     </p>
                   </Split>
                 </div>
@@ -48,11 +48,11 @@ const NumbersWithVideo = () => {
                 <div className="item">
                   <span className="icon pe-7s-cloud-download"></span>
                   <h3 className="custom-font">
-                    <span className="count">254</span> k
+                    <span className="count">20</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
-                      Files Downloaded
+                      Entreprises
                     </p>
                   </Split>
                 </div>
@@ -61,11 +61,11 @@ const NumbersWithVideo = () => {
                 <div className="item">
                   <span className="icon pe-7s-medal"></span>
                   <h3 className="custom-font">
-                    <span className="count">46</span>
+                    <span className="count">5</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
-                      Award Win
+                    Conférenciers
                     </p>
                   </Split>
                 </div>
@@ -81,7 +81,7 @@ const NumbersWithVideo = () => {
                   <div className="tit-text">
                     <Split>
                       <h3 className="wow words chars splitting" data-splitting>
-                        Showreel
+                        Teaser
                       </h3>
                     </Split>
                   </div>
@@ -92,7 +92,7 @@ const NumbersWithVideo = () => {
                     <div className="vid-icon">
                       {typeof window !== "undefined" && (
                         <ModalVideo
-                          channel="vimeo"
+                          channel="youtube"
                           autoplay
                           isOpen={isOpen}
                           videoId="127203262"

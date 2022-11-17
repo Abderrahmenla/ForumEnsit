@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Split from "../Split";
 import { Formik, Form, Field } from "formik";
@@ -19,7 +20,7 @@ const ContactSection = () => {
       <div className="container">
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
-            Get In Touch
+            S'inscrire
           </h6>
           <Split>
             <h3 className="wow words chars splitting" data-splitting>
@@ -104,7 +105,7 @@ const ContactSection = () => {
                               type="submit"
                               className="simple-btn custom-font cursor-pointer"
                             >
-                              <span>Send Message</span>
+                              <span>Envoyer</span>
                             </button>
                           </div>
                         </div>

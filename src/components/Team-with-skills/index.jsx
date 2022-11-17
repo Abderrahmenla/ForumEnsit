@@ -50,15 +50,15 @@ const TeamWithSkills = () => {
                   <div className="full-width">
                     <div
                       className="img sizxl mb-30"
-                      data-tooltip-tit="Stephanie Lawrence"
-                      data-tooltip-sub="CEO, Colabrio Media"
+                      data-tooltip-tit="Farouk Kamoun"
+                      data-tooltip-sub="Professeur et expert international en politique stratégies"
                     >
                       <img src="/img/team/1.jpg" alt="" className="imago wow" />
                     </div>
                     <div
                       className="img sizmd"
-                      data-tooltip-tit="Alex Regelman"
-                      data-tooltip-sub="Co-Founder, Colabrio Media"
+                      data-tooltip-tit="THORSTEN KÖRNER"
+                      data-tooltip-sub="Bosch Rexroth AG"
                     >
                       <img src="/img/team/2.jpg" alt="" className="imago wow" />
                     </div>
@@ -68,15 +68,15 @@ const TeamWithSkills = () => {
                   <div className="full-width text-left">
                     <div
                       className="img sizmd mb-30"
-                      data-tooltip-tit="Stacey Stamper"
-                      data-tooltip-sub="Network Partner, Colabrio Media"
+                      data-tooltip-tit="Alexander Hofmann"
+                      data-tooltip-sub="CTO at MaibornWolff and Holger Wolff"
                     >
                       <img src="/img/team/3.jpg" alt="" className="imago wow" />
                     </div>
                     <div
                       className="img sizsm"
-                      data-tooltip-tit="Stephanie Lawrence"
-                      data-tooltip-sub="CEO, Colabrio Media"
+                      data-tooltip-tit="Fatma Gargouri"
+                      data-tooltip-sub="CTO at Smart Ways Innovation "
                     >
                       <img src="/img/team/4.jpg" alt="" className="imago wow" />
                     </div>

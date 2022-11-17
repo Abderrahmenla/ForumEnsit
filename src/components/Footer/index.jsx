@@ -28,31 +28,27 @@ const Footer = () => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span> contact@abderrahmenlh.com
+                    <span>Email : </span> contact@ensit.rnu.tn
                   </li>
                   <li>
-                    <span>Address : </span> A32 , Ave 15th Street, Door 211, San
-                    Franciso, USA 32490.
+                    <span>Address : </span>05, Avenue Taha Hussein Montfleury, 1008 Tunis
                   </li>
                   <li>
-                    <span>Phone : </span> (+216) 20 933 337
+                    <span>Phone : </span> (+216) 71 399 525
                   </li>
                 </ul>
               </div>
               <div className="social-icon">
-                <h6 className="custom-font stit simple-btn">Follow Us</h6>
+                <h6 className="custom-font stit simple-btn">Suivez-nous</h6>
                 <div className="social">
-                  <a href="#0" className="icon">
+                  <a href="https://www.facebook.com/InsightofENSIT" className="icon">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-twitter"></i>
+                  <a href="https://www.linkedin.com/company/insight-of-ensit-connected-world/" className="icon">
+                    <i className="fab fa-linkedin"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
-                  </a>
-                  <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </div>
               </div>
@@ -60,7 +56,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>Sign up for subscribe out newsletter!</p>
               <Formik
                 initialValues={{
@@ -91,26 +87,12 @@ const Footer = () => {
                 )}
               </Formik>
             </div>
-            <div className="insta">
-              <h6 className="custom-font stit simple-btn">Instagram Post</h6>
-              <div className="insta-gallary">
-                <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="" />
-                </a>
-              </div>
-            </div>
           </div>
         </div>
         <div className="copyrights text-center">
           <p>
             © 2022, ENSIT. Made with passion by
-            <a href="http://abderrahmenlh.com">Abderrahmen Lahmedi</a>.
+            <a href="http://abderrahmenlh.com"> Abderrahmen Lahmedi</a>.
           </p>
         </div>
       </div>
