@@ -18,7 +18,7 @@ SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
 const ShowcasesFullScreen = () => {
   let url="";
-  if (process.env.NODE_ENV == "production" || !process.env.NODE_ENV ) {
+  if (process.env.NODE_ENV == "production") {
     url = "https://forum-ensit.vercel.app";
   }
     
