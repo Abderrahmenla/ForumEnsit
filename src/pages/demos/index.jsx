@@ -12,6 +12,11 @@ import DarkTheme from "../../layouts/Dark";
 import Clients1 from "../../components/Clients1";
 
 const Homepage3 = () => {
+  if (process.env.NODE_ENV == "development") {
+    console.log("Homepage3 rendered");
+  }
+    console.log(process.env.NODE_ENV)
+  
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 

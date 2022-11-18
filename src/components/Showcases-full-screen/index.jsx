@@ -80,7 +80,7 @@ const ShowcasesFullScreen = () => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${slide.image})` }}
+                  style={{ backgroundImage: `url(${ (process.env.NODE_ENV =="development")? slide.image ? (process.env.NODE_ENV =="production") : "https://forum-ensit.vercel.app"+ slide.image : ""})` }}
                   data-overlay-dark="4"
                 >
                   <div className="container">
