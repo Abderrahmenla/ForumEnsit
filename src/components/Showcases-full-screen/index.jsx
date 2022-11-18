@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ShowcassesFullScreenData from "../../data/showcases-full-screen-slider.json";
 import SwiperCore, {
@@ -89,6 +88,7 @@ const ShowcasesFullScreen = () => {
                       <div className="col-lg-10 offset-lg-1">
                         <div className="caption">
                           <h1>
+                            
                               <a>
                                 <div
                                   className="stroke"
@@ -100,6 +100,7 @@ const ShowcasesFullScreen = () => {
                                   {slide.title.second}
                                 </span>
                               </a>
+                            
                           </h1>
                         </div>
                       </div>
