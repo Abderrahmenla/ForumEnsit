@@ -17,7 +17,8 @@ const NavbarFullMenu = ({ theme, lr }) => {
       >
         <div className="container-fluid">
           <div className="logo">
-            <a href="#0">
+            <Link href="/">
+            <a >
               {theme ? (
                 theme === "light" ? (
                   <img src={`${appData.darkLogo}`} alt="logo" />
@@ -28,6 +29,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                 <img src={`${appData.lightLogo}`} alt="logo" />
               )}
             </a>
+            </Link>
           </div>
           <div className="menu-icon">
             <span className="icon">
@@ -62,7 +64,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                       <Link href="/about/about-dark">
                         <a className="link">
-                          <span className="nm">02.</span>About Us
+                          <span className="nm">02.</span>A propos
                         </a>
                       </Link>
                     </div>
@@ -72,7 +74,7 @@ const NavbarFullMenu = ({ theme, lr }) => {
                     <div className="o-hidden">
                     <Link href="/showcase/showcase-dark/">
                         <a className="link">
-                        <span className="nm">03.</span>Showcases
+                        <span className="nm">03.</span>Gallerie
                         </a>
                     </Link>
                     </div>
@@ -93,19 +95,19 @@ const NavbarFullMenu = ({ theme, lr }) => {
             <div className="col-lg-3 col-md-4">
               <div className="cont-info">
                 <div className="item">
-                  <h6>Phone :</h6>
-                  <p>+03 762-2367-723</p>
+                  <h6>Telephone :</h6>
+                  <p> (+216) 71 399 525</p>
                 </div>
                 <div className="item">
-                  <h6>Address :</h6>
+                  <h6>Addresse :</h6>
                   <p>
-                    541 Melville Ave, Palo Alto, CA 94301, ask@ohio.colabr.io
+                  05, Avenue Taha Hussein Montfleury, 1008 Tunis
                   </p>
                 </div>
                 <div className="item">
                   <h6>Email :</h6>
                   <p>
-                    <a href="#0">contact@abderrahmenlh.com</a>
+                    <a href="#0">contact@ensit.rnu.tn</a>
                   </p>
                 </div>
               </div>

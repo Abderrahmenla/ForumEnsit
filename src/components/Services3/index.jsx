@@ -46,7 +46,7 @@ const Services3 = () => {
               <span className="icon pe-7s-graph2"></span>
               <h6>GMAM</h6>
               <p>
-              Le Génie Mathématiques Appliquées et Modélisation est à la croisée de la science des données, des statistiques, de l'intelligence artificielle, de la modélisation mathématique et de l’ingénierie numérique.
+              La formation est à la croisée de la science des données, des statistiques, de l'intelligence artificielle, de la modélisation mathématique et de l’ingénierie numérique.
               </p>
             </div>
           </div>

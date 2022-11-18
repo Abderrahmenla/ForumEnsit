@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
 import introData from "../../data/sections/intro2.json";
@@ -84,17 +85,15 @@ const IntroWithSlider3 = () => {
                       <div className="caption">
                         <Split>
                           <h1 data-splitting className="words chars splitting">
-                            <div className="thin">Unique brand</div> Stories
+                            <div className="thin">Insight of ENSIT</div> Forum 
                           </h1>
                         </Split>
                         <p>
-                          If you need to redesign your new project, new visual
-                          strategy, ux structure or you do have some cool ideas
-                          for collaboration.
+                        Rejoignez Notre Forum en vous inscrivant à notre formulaire!
                         </p>
                         <Link href="/works3/works3-dark">
                           <a className="btn-curve btn-color btn-radius mt-30">
-                            <span>Discover Work</span>
+                            <span>S'inscrire</span>
                           </a>
                         </Link>
                       </div>

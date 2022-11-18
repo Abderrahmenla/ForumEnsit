@@ -31,10 +31,10 @@ const Footer = () => {
                     <span>Email : </span> contact@ensit.rnu.tn
                   </li>
                   <li>
-                    <span>Address : </span>05, Avenue Taha Hussein Montfleury, 1008 Tunis
+                    <span>Addresse : </span>05, Avenue Taha Hussein Montfleury, 1008 Tunis
                   </li>
                   <li>
-                    <span>Phone : </span> (+216) 71 399 525
+                    <span>Telephone : </span> (+216) 71 399 525
                   </li>
                 </ul>
               </div>
@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newsletter</h6>
-              <p>Sign up for subscribe out newsletter!</p>
+              <h6 className="custom-font stit simple-btn">Rejoignez-nous</h6>
+              <p>Rejoignez Notre Forum en vous inscrivant à notre formulaire!</p>
               <Formik
                 initialValues={{
                   subscribe: "",
@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="copyrights text-center">
           <p>
             © 2022, ENSIT. Made with passion by
-            <a href="http://abderrahmenlh.com"> Abderrahmen Lahmedi</a>.
+            <a href="http://abderrahmenlh.com"> &nbsp; Abderrahmen Lahmedi</a>.
           </p>
         </div>
       </div>

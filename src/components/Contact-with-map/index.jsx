@@ -164,7 +164,7 @@ const ContactWithMap = () => {
           <div className="copyrights text-center mt-0">
             <p>
               © 2022, ENSIT. Made with passion by 
-              <a href="https://abderrahmenlh.com">Abderrahmen Lahmedi</a>.
+              <a href="https://abderrahmenlh.com"> &nbsp;Abderrahmen Lahmedi</a>.
             </p>
           </div>
         </div>

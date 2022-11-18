@@ -7,12 +7,12 @@ const BlogsThreeColumn1 = ({ subBG }) => {
       <div className="container">
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
-            Latest News
+            Sponsors
           </h6>
           <h3 className="wow" data-splitting>
-            Our Blogs.
+            Diamond.
           </h3>
-          <span className="tbg">Blogs</span>
+          <span className="tbg">Diamond</span>
         </div>
         <div className="row">
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
@@ -21,16 +21,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
               style={{ backgroundImage: "url(/img/blog/1.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
-                  <a className="date custom-font">
-                    <span>
-                      <i>06</i> Aug 2022
-                    </span>
-                  </a>
-                </Link>
                 <div className="info custom-font">
                   <a href="#0" className="author">
-                    <span>by / Admin</span>
+                    <span>Admin</span>
                   </a>
                   <Link href="/blog/blog-dark">
                     <a className="tag">
@@ -57,16 +50,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
               style={{ backgroundImage: "url(/img/blog/2.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
-                  <a className="date custom-font">
-                    <span>
-                      <i>11</i> Aug 2022
-                    </span>
-                  </a>
-                </Link>
                 <div className="info custom-font">
                   <a href="#0" className="author">
-                    <span>by / Admin</span>
+                    <span>Admin</span>
                   </a>
                   <Link href="/blog/blog-dark">
                     <a className="tag">
@@ -93,16 +79,9 @@ const BlogsThreeColumn1 = ({ subBG }) => {
               style={{ backgroundImage: "url(/img/blog/3.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog/blog-dark">
-                  <a className="date custom-font">
-                    <span>
-                      <i>09</i> Aug 2022
-                    </span>
-                  </a>
-                </Link>
                 <div className="info custom-font">
                   <a href="#0" className="author">
-                    <span>by / Admin</span>
+                    <span>Admin</span>
                   </a>
                   <Link href="/blog/blog-dark">
                     <a className="tag">

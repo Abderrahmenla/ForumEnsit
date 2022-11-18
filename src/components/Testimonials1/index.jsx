@@ -92,7 +92,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/img/clients/2.jpg" alt="" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -107,7 +107,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="/img/clients/2.jpg" alt="" />
                             </div>
                             <h6 className="author-name custom-font">
                             Alexander Hofmann 
@@ -172,7 +172,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/img/clients/3.jpg" alt="farouk kamoun" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -187,7 +187,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="/img/clients/3.jpg" alt="kamoun" />
                             </div>
                             <h6 className="author-name custom-font">
                               Farouk Kamoun
@@ -212,7 +212,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/img/clients/4.jpg" alt="Fatma gargouri" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -227,7 +227,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="/img/clients/4.jpg" alt="Fatma gargouri" />
                             </div>
                             <h6 className="author-name custom-font">
                               Fatma Gargouri
@@ -252,7 +252,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <img src="/img/clients/1.jpg" alt="" />
+                                <img src="/img/clients/5.jpg" alt="Malek ouni" />
                               </div>
                             </div>
                             <div className="fxright">
@@ -267,7 +267,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                              <img src="/img/clients/1.jpg" alt="" />
+                              <img src="/img/clients/5.jpg" alt="Malek ouni" />
                             </div>
                             <h6 className="author-name custom-font">
                               Malek Ouni

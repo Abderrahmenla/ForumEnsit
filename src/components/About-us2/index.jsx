@@ -3,8 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import Split from "../Split";
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
+import Image from "next/image";
+import CountDown from "../CountDown";
+
+
 
 const AboutUs2 = ({ skillsTheme }) => {
   const cpStyle = {
@@ -65,39 +67,14 @@ Ce ne sont que trois exemples parmi tant d'autres qui sont déjà une réalité 
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <img src="/img/intro/3.jpg" alt="" />
+                <Image src="/img/intro/3.jpg" alt="ensit" width={602} height={402}/>
               </div>
               <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
-                <div className="item">
-                  <div className="skill">
-                    <CircularProgressbar
-                      value={90}
-                      className="custom-font"
-                      strokeWidth={2}
-                      text={`${90}%`}
-                      styles={cpStyle}
-                    />
-                  </div>
-                  <div className="cont">
-                    <span>Project</span>
-                    <h6>Consulting</h6>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="skill">
-                    <CircularProgressbar
-                      value={75}
-                      strokeWidth={2}
-                      className="custom-font"
-                      text={`${75}%`}
-                      styles={cpStyle}
-                    />
-                  </div>
-                  <div className="cont">
-                    <span>App</span>
-                    <h6>Development</h6>
-                  </div>
-                </div>
+              {/* <Countdown date={Date.now() + 10000} /> */}
+              <CountDown 
+		timeTillDate="11 23 2022, 8:00 am" 
+		timeFormat="MM DD YYYY, h:mm a" 
+	/>
               </div>
             </div>
           </div>
