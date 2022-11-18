@@ -53,7 +53,7 @@ Ce ne sont que trois exemples parmi tant d'autres qui sont déjà une réalité 
               Dans un ménage moyen, 50 appareils sont déjà connectés à l'internet, et la tendance est à la hausse. Le monde connecté prend des formes de plus en plus concrètes dans les foyers privés ainsi que dans l'industrie, le commerce et la science.
               </p>
               <Split>
-                <Link href="/about/about-dark">
+                <Link href="/a-propos">
                   <a
                     className="words chars splitting simple-btn custom-font mt-30 wow"
                     data-splitting

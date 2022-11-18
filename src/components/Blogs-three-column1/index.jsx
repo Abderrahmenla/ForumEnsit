@@ -25,19 +25,19 @@ const BlogsThreeColumn1 = ({ subBG }) => {
                   <a href="#0" className="author">
                     <span>Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/blog">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     The Start-Up Ultimate Guide to Make Your WordPress Journal.
                   </Link>
                 </h6>
                 <div className="btn-more custom-font">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     <a className="simple-btn">Lire la suite</a>
                   </Link>
                 </div>
@@ -54,19 +54,19 @@ const BlogsThreeColumn1 = ({ subBG }) => {
                   <a href="#0" className="author">
                     <span>Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/blog">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     The Start-Up Ultimate Guide to Make Your WordPress Journal.
                   </Link>
                 </h6>
                 <div className="btn-more custom-font">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     <a className="simple-btn">Lire la suite</a>
                   </Link>
                 </div>
@@ -83,19 +83,19 @@ const BlogsThreeColumn1 = ({ subBG }) => {
                   <a href="#0" className="author">
                     <span>Admin</span>
                   </a>
-                  <Link href="/blog/blog-dark">
+                  <Link href="/blog">
                     <a className="tag">
                       <span>WordPress</span>
                     </a>
                   </Link>
                 </div>
                 <h6>
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     The Start-Up Ultimate Guide to Make Your WordPress Journal.
                   </Link>
                 </h6>
                 <div className="btn-more custom-font">
-                  <Link href="/blog-details/blog-details-dark">
+                  <Link href="/blog-details">
                     <a className="simple-btn">Lire la suite</a>
                   </Link>
                 </div>

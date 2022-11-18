@@ -18,7 +18,7 @@ const AboutHeader = () => {
                 <a >Accueil</a>
                 </Link>
                 <span>/</span>
-                <Link href="/about/about-dark">
+                <Link href="/a-propos">
                 <a  className="active">
                   A propos
                 </a>

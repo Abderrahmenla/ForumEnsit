@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form } from "formik";
 import appData from "../../data/app.json";
+import Link from "next/link";
 
 const Footer = () => {
   function validateEmail(value) {
@@ -72,16 +74,9 @@ const Footer = () => {
                 {({ errors, touched }) => (
                   <Form>
                     <div className="form-group custom-font">
-                      <Field
-                        validate={validateEmail}
-                        type="email"
-                        name="subscribe"
-                        placeholder="Your Email"
-                      />
-                      {errors.email && touched.email && (
-                        <div>{errors.email}</div>
-                      )}
-                      <button className="cursor-pointer">Subscribe</button>
+                      <Link href="/inscription">
+                      <a><button className="cursor-pointer">S'inscrire</button></a>
+                      </Link>
                     </div>
                   </Form>
                 )}

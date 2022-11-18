@@ -28,7 +28,7 @@ const CallToAction = ({ img, theme, subBG }) => {
           </div>
 
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
+            <Link href="/inscription">
               <a
                 className={`btn-curve ${
                   theme == "light" ? "btn-blc" : "btn-lit"
