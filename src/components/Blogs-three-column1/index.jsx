@@ -7,10 +7,10 @@ const BlogsThreeColumn1 = ({ subBG }) => {
       <div className="container">
         <div className="sec-head custom-font text-center">
           <h6 className="wow fadeIn" data-wow-delay=".5s">
-            Sponsors
+            Diamond
           </h6>
           <h3 className="wow" data-splitting>
-            Diamond.
+            Sponsors
           </h3>
           <span className="tbg">Diamond</span>
         </div>

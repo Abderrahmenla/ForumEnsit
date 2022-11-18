@@ -58,7 +58,7 @@ class Testimonials1 extends React.Component {
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-              Conférenciers.
+              Conférenciers
               </h3>
             </Split>
             <span className="tbg">Conférenciers</span>
@@ -163,7 +163,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                  un expert international en éducation, e-gouvernance et innovation numérique. Il est membre de plusieurs associations et notamment du Groupe iMFV travaillant sur le développement de la Vision Future de la Mobilité Intelligente
+                  un expert international en éducation, e-gouvernance et innovation numérique. Il est membre de plusieurs associations et notamment <br/>du Groupe iMFV travaillant sur le développement de la Vision Future de la Mobilité Intelligente
                   </p>
                   <div className="info">
                     <div className="cont">
@@ -203,7 +203,7 @@ class Testimonials1 extends React.Component {
                 </div>
                 <div className="item">
                   <p>
-                  Ingénieur en électronique et télécommunications intéressé par tout ce qui concerne l'Internet des objets, l'intelligence artificielle et le développement informatique
+                  Ingénieur en électronique et télécommunications intéressé par tout <br/> ce qui concerne l'Internet des objets, l'intelligence artificielle et le développement informatique
                   </p>
                   <div className="info">
                     <div className="cont">

@@ -40,7 +40,7 @@ const Works2Slider = ({ subBG }) => {
             </h6>
             <Split>
               <h3 className="wow words chars splitting" data-splitting>
-              Notre Galerie.
+              Notre&nbsp;Galerie
               </h3>
             </Split>
             <span className="tbg">WORK 4.0</span>
