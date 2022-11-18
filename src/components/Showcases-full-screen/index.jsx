@@ -17,6 +17,11 @@ import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 SwiperCore.use([Navigation, Pagination, Parallax, Mousewheel]);
 
 const ShowcasesFullScreen = () => {
+  let url="";
+  if (process.env.NODE_ENV == "production") {
+    url = "https://forum-ensit.vercel.app";
+  }
+    
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
     setTimeout(() => {
@@ -80,7 +85,7 @@ const ShowcasesFullScreen = () => {
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
-                  style={{ backgroundImage: `url(${ (process.env.NODE_ENV =="development")? slide.image ? (process.env.NODE_ENV =="production") : "https://forum-ensit.vercel.app"+ slide.image : ""})` }}
+                  style={{ backgroundImage: `url(${ url+ slide.image})` }}
                   data-overlay-dark="4"
                 >
                   <div className="container">
