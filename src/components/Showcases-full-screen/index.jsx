@@ -89,7 +89,6 @@ const ShowcasesFullScreen = () => {
                       <div className="col-lg-10 offset-lg-1">
                         <div className="caption">
                           <h1>
-                            <Link href="/project-details2/project-details2-dark">
                               <a>
                                 <div
                                   className="stroke"
@@ -101,7 +100,6 @@ const ShowcasesFullScreen = () => {
                                   {slide.title.second}
                                 </span>
                               </a>
-                            </Link>
                           </h1>
                         </div>
                       </div>

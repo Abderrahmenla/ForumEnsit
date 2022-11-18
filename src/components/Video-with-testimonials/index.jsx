@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ModalVideo from "react-modal-video";
@@ -87,7 +88,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
+                          <Image src={"/img/clients/2.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">
@@ -111,7 +112,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
+                          <Image src={"/img/clients/2.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">
@@ -135,7 +136,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
+                        <Image src={"/img/clients/3.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">
