@@ -104,3 +104,16 @@ section.next-prog {
 section.team.section-padding {
   overflow: hidden;
 }
+
+.thumbnail {
+  overflow: hidden;
+  border-radius: 8px;
+}
+.thumbnail img {
+  border-radius: 8px;
+  transition: 0.4s;
+  width: 100%;
+}
+.thumbnail img:hover {
+  transform: scale(1.08);
+}

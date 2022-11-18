@@ -14,7 +14,7 @@ const Services3 = () => {
         <div className="row">
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
             <div className="step-item xtop">
-              <span className="icon pe-7s-gleam"></span>
+              <span className="icon pe-7s-home"></span>
               <h6>Génie Civil</h6>
               <p>
               Le département de génie civil de l’ENSIT forme des ingénieurs concepteurs et constructeurs.
@@ -32,7 +32,7 @@ const Services3 = () => {
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
             <div className="step-item xbottom">
-              <span className="icon pe-7s-magic-wand"></span>
+              <span className="icon pe-7s-tools"></span>
               <h6>Génie mecanique </h6>
               <p>
               Cadre enseignant hautement qualifié et diversifié, couvrant tous les domaines de la Mécanique.
@@ -43,7 +43,7 @@ const Services3 = () => {
         <div className="row">
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
             <div className="step-item xtop">
-              <span className="icon pe-7s-gleam"></span>
+              <span className="icon pe-7s-graph2"></span>
               <h6>GMAM</h6>
               <p>
               Le Génie Mathématiques Appliquées et Modélisation est à la croisée de la science des données, des statistiques, de l'intelligence artificielle, de la modélisation mathématique et de l’ingénierie numérique.
@@ -52,7 +52,7 @@ const Services3 = () => {
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay=".7s">
             <div className="step-item xcolor">
-              <span className="icon pe-7s-phone"></span>
+              <span className="icon pe-7s-config"></span>
               <h6>Génie Industriel</h6>
               <p>
               La formation englobe la conception, l’amélioration et l’installation des systèmes integres.
@@ -61,7 +61,7 @@ const Services3 = () => {
           </div>
           <div className="col-lg-4 wow fadeInUp" data-wow-delay="1s">
             <div className="step-item xbottom">
-              <span className="icon pe-7s-magic-wand"></span>
+              <span className="icon pe-7s-gleam"></span>
               <h6>Génie électrique</h6>
               <p>
               Former des ingénieurs capables de s’appuyer sur leurs compétences scientifiques et techniques pour résoudre des problèmes d'ingénierie complexes

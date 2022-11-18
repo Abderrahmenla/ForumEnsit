@@ -20,7 +20,7 @@ const NumbersWithVideo = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6">
                 <div className="item no-bord">
-                  <span className="icon pe-7s-smile"></span>
+                  <span className="icon pe-7s-clock"></span>
                   <h3 className="custom-font">
                     <span className="count">13</span>
                   </h3>
@@ -33,7 +33,7 @@ const NumbersWithVideo = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item">
-                  <span className="icon pe-7s-portfolio"></span>
+                  <span className="icon pe-7s-id"></span>
                   <h3 className="custom-font">
                     <span className="count">750</span>
                   </h3>
@@ -46,7 +46,7 @@ const NumbersWithVideo = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item">
-                  <span className="icon pe-7s-cloud-download"></span>
+                  <span className="icon pe-7s-culture"></span>
                   <h3 className="custom-font">
                     <span className="count">20</span>
                   </h3>
@@ -59,7 +59,7 @@ const NumbersWithVideo = () => {
               </div>
               <div className="col-lg-3 col-md-6">
                 <div className="item">
-                  <span className="icon pe-7s-medal"></span>
+                  <span className="icon pe-7s-micro"></span>
                   <h3 className="custom-font">
                     <span className="count">5</span>
                   </h3>
@@ -95,7 +95,7 @@ const NumbersWithVideo = () => {
                           channel="youtube"
                           autoplay
                           isOpen={isOpen}
-                          videoId="127203262"
+                          videoId="5PgNFO6hIWw"
                           onClose={() => setOpen(false)}
                         />
                       )}
@@ -105,7 +105,7 @@ const NumbersWithVideo = () => {
                           setOpen(true);
                         }}
                         className="vid"
-                        href="https://vimeo.com/127203262"
+                        href="https://www.youtube.com/watch?v=5PgNFO6hIWw"
                       >
                         <div className="vid-butn">
                           <span className="icon">
