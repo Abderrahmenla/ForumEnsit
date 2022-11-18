@@ -2,10 +2,12 @@
 import React from "react";
 import Clients1Data from "../../data/sections/clients1.json";
 import Split from "../Split";
+import Link from "next/link";
 
 const Clients1 = ({ theme, subBG }) => {
-  var first = Clients1Data.slice(0, Clients1Data.length / 2);
-  var second = Clients1Data.slice(4, Clients1Data.length);
+  let first = Clients1Data.slice(0, 4);
+  let second = Clients1Data.slice(4, 8);
+  let third = Clients1Data.slice(8, 10);
   return (
     <section className={`clients section-padding ${subBG ? 'sub-bg' : ''}`}>
       <div className="container">
@@ -44,13 +46,15 @@ const Clients1 = ({ theme, subBG }) => {
                           <img src={item.darkImage} alt="" />
                         )}
                         <Split>
+                        <Link href={`http://www.${item.url}`}>
                           <a
-                            href="#0"
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
                           >
                             {item.url}
                           </a>
+                          </Link>
                         </Split>
                       </div>
                     </div>
@@ -94,18 +98,66 @@ const Clients1 = ({ theme, subBG }) => {
                           <img src={item.darkImage} alt="" />
                         )}
                         <Split>
+                        <Link  href={`http://www.${item.url}`}>
                           <a
-                            href="#0"
                             className="link words chars splitting"
                             data-splitting
+                            target="_blank"
                           >
                             {item.url}
                           </a>
+                          </Link>
                         </Split>
                       </div>
                     </div>
                   </div>
                 ))}
+                
+              </div>
+              <div className="row">
+                {third.map((item) => (
+                  <div
+                    key={item.id}
+                    className={`${
+                      item.id == 9
+                        ? "col-md-3 col-6 brands mt-30 sm-mb30"
+                        : item.id == 10
+                        ? "col-md-3 col-6 brands mt-30 sm-mb30"
+                        : ""
+                    }`}
+                  >
+                    <div
+                      className="item wow fadeIn"
+                      data-wow-delay={`${
+                        item.id == 1
+                          ? ".5"
+                          : item.id == 2
+                          ? ".8"
+                          : ""
+                      }s`}
+                    >
+                      <div className="img">
+                        {theme === "light" ? (
+                          <img src={item.lightImage} alt="" />
+                        ) : (
+                          <img src={item.darkImage} alt="" />
+                        )}
+                        <Split>
+                        <Link  href={`http://www.${item.url}`}>
+                          <a
+                            className="link words chars splitting"
+                            data-splitting
+                            target="_blank"
+                          >
+                            {item.url}
+                          </a>
+                          </Link>
+                        </Split>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                
               </div>
             </div>
           </div>

@@ -41,7 +41,7 @@ const Services3 = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+          <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
             <div className="step-item xtop">
               <span className="icon pe-7s-gleam"></span>
               <h6>GMAM</h6>
@@ -50,7 +50,7 @@ const Services3 = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+          <div className="col-lg-4 wow fadeInUp" data-wow-delay=".7s">
             <div className="step-item xcolor">
               <span className="icon pe-7s-phone"></span>
               <h6>Génie Industriel</h6>
@@ -59,7 +59,7 @@ const Services3 = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 wow fadeInUp" data-wow-delay=".9s">
+          <div className="col-lg-4 wow fadeInUp" data-wow-delay="1s">
             <div className="step-item xbottom">
               <span className="icon pe-7s-magic-wand"></span>
               <h6>Génie électrique</h6>

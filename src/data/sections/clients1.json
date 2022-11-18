@@ -2,49 +2,63 @@
   {
     "id": 1,
     "lightImage": "/img/clients/brands/light/1.png",
-    "darkImage": "/img/clients/brands/dark/01.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/addixio.png",
+    "url": "addixo.com"
   },
   {
     "id": 2,
     "lightImage": "/img/clients/brands/light/2.png",
-    "darkImage": "/img/clients/brands/dark/02.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/aterf.png",
+    "url": "ater-tunisia.com"
   },
   {
     "id": 3,
     "lightImage": "/img/clients/brands/light/3.png",
-    "darkImage": "/img/clients/brands/dark/03.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/bosch.png",
+    "url": "bosch-home.com"
   },
   {
     "id": 4,
     "lightImage": "/img/clients/brands/light/4.png",
-    "darkImage": "/img/clients/brands/dark/04.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/fnz.png",
+    "url": "fnz.com"
   },
   {
     "id": 5,
     "lightImage": "/img/clients/brands/light/5.png",
-    "darkImage": "/img/clients/brands/dark/05.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/leoni.png",
+    "url": "leoni.com"
   },
   {
     "id": 6,
     "lightImage": "/img/clients/brands/light/6.png",
-    "darkImage": "/img/clients/brands/dark/06.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/linedata.png",
+    "url": "linedata.com"
   },
   {
     "id": 7,
     "lightImage": "/img/clients/brands/light/7.png",
-    "darkImage": "/img/clients/brands/dark/07.png",
-    "url": "www.abderrahmenlh.com"
+    "darkImage": "/img/clients/brands/dark/maiborn.png",
+    "url": "maibornwolff.de"
   },
   {
     "id": 8,
-    "lightImage": "/img/clients/brands/light/8.png",
-    "darkImage": "/img/clients/brands/dark/08.png",
-    "url": "www.abderrahmenlh.com"
+    "lightImage": "/img/clients/brands/light/sagemcom.png",
+    "darkImage": "/img/clients/brands/dark/sagemcom.png",
+    "url": "sagemcom.com"
+  }
+  ,
+  {
+    "id": 9,
+    "lightImage": "/img/clients/brands/light/sparkit.png",
+    "darkImage": "/img/clients/brands/dark/sparkit.png",
+    "url": "spark-it.fr"
+  }
+  ,
+  {
+    "id": 10,
+    "lightImage": "/img/clients/brands/light/telnet.png",
+    "darkImage": "/img/clients/brands/dark/telnet1.png",
+    "url": "groupe-telnet.com"
   }
 ]

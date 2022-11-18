@@ -41,13 +41,13 @@ const Footer = () => {
               <div className="social-icon">
                 <h6 className="custom-font stit simple-btn">Suivez-nous</h6>
                 <div className="social">
-                  <a href="https://www.facebook.com/InsightofENSIT" className="icon">
+                  <a target="_blank" href="https://www.facebook.com/InsightofENSIT" className="icon" rel="noreferrer">
                     <i className="fab fa-facebook-f"></i>
                   </a>
-                  <a href="https://www.linkedin.com/company/insight-of-ensit-connected-world/" className="icon">
+                  <a target="_blank" href="https://www.linkedin.com/company/insight-of-ensit-connected-world/" className="icon" rel="noreferrer">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  <a target="_blank" href="https://www.youtube.com/@rachedgharbi6604" className="icon" rel="noreferrer">
                     <i className="fab fa-youtube"></i>
                   </a>
                 </div>
