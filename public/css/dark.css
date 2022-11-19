@@ -1119,6 +1119,12 @@ body {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   visibility: hidden;
+
+}
+@media screen and (max-width: 800px) {
+  .mouse-cursor {
+    display: none;
+  }
 }
 
 .cursor-inner {
