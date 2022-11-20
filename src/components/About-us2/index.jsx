@@ -67,7 +67,7 @@ Ce ne sont que trois exemples parmi tant d'autres qui sont déjà une réalité 
           <div className="col-lg-6">
             <div className="blc-img">
               <div className="bimg wow imago">
-                <Image src="/img/intro/3.jpg" alt="ensit" width={602} height={402}/>
+                <Image placeholder="blur" src="/img/intro/3.jpg" alt="ensit" width={602} height={402}/>
               </div>
               <div className="skills-circle wow fadeInUp" data-wow-delay=".8">
               {/* <Countdown date={Date.now() + 10000} /> */}

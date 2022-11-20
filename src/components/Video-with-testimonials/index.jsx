@@ -88,7 +88,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <Image src={"/img/clients/2.jpg"} alt="Alex Regelman" />
+                          <Image placeholder="blur" src={"/img/clients/2.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">
@@ -112,7 +112,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                          <Image src={"/img/clients/2.jpg"} alt="Alex Regelman" />
+                          <Image placeholder="blur" src={"/img/clients/2.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">
@@ -136,7 +136,7 @@ const VideoWithTestimonials = () => {
                     <div className="info">
                       <div className="img">
                         <div className="img-box">
-                        <Image src={"/img/clients/3.jpg"} alt="Alex Regelman" />
+                        <Image placeholder="blur" src={"/img/clients/3.jpg"} alt="Alex Regelman" />
                         </div>
                       </div>
                       <div className="cont">

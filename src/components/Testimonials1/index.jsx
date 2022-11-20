@@ -93,7 +93,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <Image src={"/img/clients/2.jpg"} alt={"Alexander Hofmann"} width={601} height={685} />
+                                <Image placeholder="blur" src={"/img/clients/2.jpg"} alt={"Alexander Hofmann"} width={601} height={685} />
                               </div>
                             </div>
                             <div className="fxright">
@@ -108,7 +108,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                            <Image src={"/img/clients/2.jpg"} alt={"Alexander Hofmann"} width={601} height={685} />
+                            <Image placeholder="blur" src={"/img/clients/2.jpg"} alt={"Alexander Hofmann"} width={601} height={685} />
                             </div>
                             <h6 className="author-name custom-font">
                             Alexander Hofmann 
@@ -134,7 +134,7 @@ class Testimonials1 extends React.Component {
                             <div className="lxleft">
                               <div className="img">
                                 <img src="/img/clients/1.jpg" alt="" />
-                                <Image src={"/img/clients/1.jpg"} alt={"THORSTEN KÖRNER"} width={601} height={737} />
+                                <Image placeholder="blur" src={"/img/clients/1.jpg"} alt={"THORSTEN KÖRNER"} width={601} height={737} />
                               </div>
                             </div>
                             <div className="fxright">
@@ -149,7 +149,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                            <Image src={"/img/clients/1.jpg"} alt={"THORSTEN KÖRNER"} width={601} height={737} />
+                            <Image placeholder="blur" src={"/img/clients/1.jpg"} alt={"THORSTEN KÖRNER"} width={601} height={737} />
                             </div>
                             <h6 className="author-name custom-font">
                               THORSTEN KÖRNER
@@ -174,7 +174,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                                <Image src={"/img/clients/3.jpg"} alt={"farouk kamoun"} width={601} height={601} />
+                                <Image placeholder="blur" src={"/img/clients/3.jpg"} alt={"farouk kamoun"} width={601} height={601} />
                               </div>
                             </div>
                             <div className="fxright">
@@ -189,7 +189,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                            <Image src={"/img/clients/3.jpg"} alt={"farouk kamoun"} width={601} height={601} />
+                            <Image placeholder="blur" src={"/img/clients/3.jpg"} alt={"farouk kamoun"} width={601} height={601} />
                             </div>
                             <h6 className="author-name custom-font">
                               Farouk Kamoun
@@ -214,7 +214,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                              <Image src={"/img/clients/4.jpg"} alt={"Fatma gargouri"} width={601} height={601} />
+                              <Image placeholder="blur" src={"/img/clients/4.jpg"} alt={"Fatma gargouri"} width={601} height={601} />
                               </div>
                             </div>
                             <div className="fxright">
@@ -229,7 +229,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                            <Image src={"/img/clients/4.jpg"} alt={"Fatma gargouri"} width={601} height={601} />
+                            <Image placeholder="blur" src={"/img/clients/4.jpg"} alt={"Fatma gargouri"} width={601} height={601} />
                             </div>
                             <h6 className="author-name custom-font">
                               Fatma Gargouri
@@ -254,7 +254,7 @@ class Testimonials1 extends React.Component {
                           <>
                             <div className="lxleft">
                               <div className="img">
-                              <Image src={"/img/clients/5.jpg"} alt={"Malek ouni"} width={601} height={601} />
+                              <Image placeholder="blur" src={"/img/clients/5.jpg"} alt={"Malek ouni"} width={601} height={601} />
                               </div>
                             </div>
                             <div className="fxright">
@@ -269,7 +269,7 @@ class Testimonials1 extends React.Component {
                         ) : (
                           <>
                             <div className="img">
-                            <Image src={"/img/clients/5.jpg"} alt={"Malek ouni"} width={601} height={601} />
+                            <Image placeholder="blur" src={"/img/clients/5.jpg"} alt={"Malek ouni"} width={601} height={601} />
                             </div>
                             <h6 className="author-name custom-font">
                               Malek Ouni

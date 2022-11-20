@@ -1,8 +1,7 @@
 /* eslint-disable @next/next/no-css-tags */
-import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 import React from "react";
+import Head from "next/head";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation } from "swiper";
 
@@ -103,7 +102,7 @@ const Works2Slider = ({ subBG }) => {
                             data-wow-delay=".3s"
                         >
                                 <div className="thumbnail">
-                                  <Image src ="/img/portfolio/curs/1.jpg" alt="curs-1" width={800} height={1200}/>
+                                  <Image placeholder="blur" src ="/img/portfolio/curs/1.jpg" alt="curs-1" width={800} height={1200}/>
                                 </div>
                         </div>
                       </SwiperSlide>
@@ -113,7 +112,7 @@ const Works2Slider = ({ subBG }) => {
                             data-wow-delay=".3s"
                         >
                                 <div className="thumbnail">
-                                  <Image src ="/img/portfolio/curs/2.jpg" alt="curs-2" width={800} height={1200}/>
+                                  <Image placeholder="blur" src ="/img/portfolio/curs/2.jpg" alt="curs-2" width={800} height={1200}/>
                                 </div>
                         </div>
                       </SwiperSlide>
@@ -123,7 +122,7 @@ const Works2Slider = ({ subBG }) => {
                             data-wow-delay=".3s"
                         >
                                 <div className="thumbnail">
-                                  <Image src ="/img/portfolio/curs/3.jpg" alt="curs-3" width={800} height={1200}/>
+                                  <Image placeholder="blur" src ="/img/portfolio/curs/3.jpg" alt="curs-3" width={800} height={1200}/>
                                 </div>
                         </div>
                       </SwiperSlide>
@@ -133,7 +132,7 @@ const Works2Slider = ({ subBG }) => {
                             data-wow-delay=".3s"
                         >
                                 <div className="thumbnail">
-                                  <Image src ="/img/portfolio/curs/4.jpg" alt="curs-4" width={800} height={1200}/>
+                                  <Image placeholder="blur" src ="/img/portfolio/curs/4.jpg" alt="curs-4" width={800} height={1200}/>
                                 </div>
                         </div>
                       </SwiperSlide>
@@ -143,7 +142,7 @@ const Works2Slider = ({ subBG }) => {
                             data-wow-delay=".3s"
                         >
                                 <div className="thumbnail">
-                                  <Image src ="/img/portfolio/curs/5.jpg" alt="curs-5" width={800} height={1200}/>
+                                  <Image placeholder="blur" src ="/img/portfolio/curs/5.jpg" alt="curs-5" width={800} height={1200}/>
                                 </div>
                         </div>
                       </SwiperSlide>
